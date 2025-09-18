@@ -1,0 +1,62 @@
+/* Reset defaults */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center everything in the viewport */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering */
+    height: 100vh;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Action links */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+/* Form styling */
+form {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 8px 15px;
+    cursor: pointer;
+}
