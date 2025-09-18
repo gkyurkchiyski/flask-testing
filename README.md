@@ -1,1 +1,1 @@
-# Flask-testing. Basic Todo app using Flask and Python with some Templates and Static content
+Basic Todo app using Flask and Python with some Templates and Static content
